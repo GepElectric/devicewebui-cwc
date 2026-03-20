@@ -1,5 +1,8 @@
 # DeviceWebUI CWC
 
+[![Repo](https://img.shields.io/badge/GitHub-devicewebui--cwc-24292f?logo=github)](https://github.com/GepElectric/devicewebui-cwc)
+[![Release](https://img.shields.io/github/v/release/GepElectric/devicewebui-cwc)](https://github.com/GepElectric/devicewebui-cwc/releases)
+
 `DeviceWebUI` is a WinCC Unified Custom Web Control for browsing device links from text files and opening them inside the HMI screen through a local proxy backend.
 
 ## Repository Contents
