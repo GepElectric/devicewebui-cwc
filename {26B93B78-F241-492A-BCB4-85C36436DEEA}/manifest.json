@@ -1,0 +1,53 @@
+{
+  "mver": "1.2.0",
+  "control": {
+    "identity": {
+      "name": "DeviceWebUI",
+      "version": "2.0",
+      "displayname": "DeviceWebUi",
+      "icon": "./assets/screenControl.ico",
+      "type": "guid://26B93B78-F241-492A-BCB4-85C36436DEEA",
+      "start": "./control/index.html"
+    },
+    "metadata": {
+      "author": "Bruno",
+      "keywords": ["Device", "WebUI", "Browser"]
+    },
+    "contracts": {
+      "api": {
+        "methods": {},
+        "events": {
+          "linkSelected": {
+            "arguments": {
+              "currentPath": {
+                "type": "string"
+              }
+            }
+          },
+          "selectedPathChanged": {
+            "arguments": {
+              "currentPath": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "properties": {
+          "rootFolder": {
+            "type": "string",
+            "default": ""
+          },
+          "initialFolderName": {
+            "type": "string",
+            "default": ""
+          },
+          "last_path": {
+            "type": "string",
+            "default": ""
+          }
+        }
+      }
+    },
+    "types": {}
+  }
+}

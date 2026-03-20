@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+helper_stdout.log
+helper_stderr.log
+
+*.zip
+dist/
+build/
+
+Thumbs.db
+.DS_Store
